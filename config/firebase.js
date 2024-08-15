@@ -1,5 +1,5 @@
 const admin = require('firebase-admin');
-const serviceAccount = require('./digiclinik-live-firebase-adminsdk.json');
+const serviceAccount = require('./digiclinik-live-firebase-adminsdk-hgwzl-aced720db4.json');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
